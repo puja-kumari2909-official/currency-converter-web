@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body >
+    <div class="blur ">
+        <div class="container">
+
+            <h1>Currency Converter</h1>
+            
+            <div class="currency">
+                <input type="number" id="amount" placeholder="Enter Amount" min="0" step="any">
+            </div>
+            <div class="selecter">
+
+                <div class="fromcurrency">
+                    <label for="fromcurrency">From:</label>
+                    <img  id="fromflags"src="https://flagsapi.com/BE/flat/64.png" alt="from flag">
+                    
+                    <select name="fromcurrency" id="fromcurrency"></select>
+                </div>
+                
+                
+                
+                <div class="tocurrency">
+                    <label for="tocurrency">To:</label>
+                    <img id="toflags" src="https://flagsapi.com/BE/flat/64.png" alt="to flag">
+                    
+                    <select name="tocurrency" id="tocurrency"></select>
+                </div>
+            </div>
+            <div class="convert">
+
+                <button class="btn">Convert</button>
+                <h2 class="Result">Ready to convert</h2>
+            </div>
+            
+
+            
+            
+        
+
+    
+        </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

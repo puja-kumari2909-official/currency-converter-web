@@ -60,7 +60,7 @@ async function convertCurrency() {
     const to = toCurrency.value.toLowerCase();     // lowercase
     const amt = parseFloat(amount.value);//string-number
 
-    if (!(amt) || amt <= 0) {
+    if (isNaN(amt) || amt <= 0) {
         result.innerText = "Enter a valid amount!";
         return;
     }
